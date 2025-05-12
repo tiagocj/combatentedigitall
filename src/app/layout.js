@@ -1,7 +1,6 @@
 import "./globals.css";
-import { ReactNode } from "react";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <head />
