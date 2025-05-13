@@ -1,10 +1,9 @@
 import styles from "./Card.module.css";
 
-export default function Card({ title, description }) {
+export default function Card() {
   return (
     <div className={styles.card}>
-      <h2>{title}</h2>
-      <p>{description}</p>
+      <h2>Canções TFM</h2>
     </div>
   );
 }
